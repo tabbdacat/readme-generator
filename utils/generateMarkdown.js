@@ -15,7 +15,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-  ${description}
+  ${data.description}
 
   ##Table of Contents
   - [Installation](#installation)
@@ -25,21 +25,24 @@ function generateMarkdown(data) {
   - [License](#license)
 
   ##Installation
-  ${installation}
+  ${data.installation}
 
   ##Usage
-  ${usage}
+  ${data.usage}
 
   ##Credits
   This application utilizes the following technologies:
-  ${contributions}
+  ${data.technologies}
+
+  Contibutors:
+  ${data.contributors}
 
   ##Questions
-  Reach out to ${email} with any questions related to this application.
-  GitHub Profile: https://github.com/${github}
+  Reach out to ${data.email} with any questions related to this application.
+  GitHub Profile: https://github.com/${data.github}
 
   ##License
-  ${license}
+  ${data.license}
 `;
 }
 

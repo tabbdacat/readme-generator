@@ -27,6 +27,16 @@ inquirer
         name: 'usage',
     },
     {
+        type: 'input',
+        message: 'What technologies did you use for this project?',
+        name: 'technologies',
+    },
+    {
+        type: 'input',
+        message: 'Who helped contribute to this project? (GitHub usernames)',
+        name: 'contibutors',
+    },
+    {
         type: 'checklist',
         message: '',
         name: 'license',
