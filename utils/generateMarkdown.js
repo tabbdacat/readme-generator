@@ -17,32 +17,37 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  ##Table of Contents
+  ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
-  - [Questions](#Questions)
+  - [Tests](#tests)
+  - [Questions](#questions)
   - [License](#license)
 
-  ##Installation
+  ## Installation
   ${data.installation}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##Credits
+  ## Credits
   This application utilizes the following technologies:
   ${data.technologies}
 
   Contibutors:
   ${data.contributors}
 
-  ##Questions
-  Reach out to ${data.email} with any questions related to this application.
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+  Please reach out via the following methods with any questions related to this application.
+  Email: ${data.email} 
   GitHub Profile: https://github.com/${data.github}
 
-  ##License
-  ${data.license}
+  ## License
+  This project is licensed under the terms of the ${data.license} licence.
 `;
 }
 
