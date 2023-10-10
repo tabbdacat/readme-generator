@@ -14,6 +14,32 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  ${description}
+
+  ##Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Questions](#Questions)
+  - [License](#license)
+
+  ##Installation
+  ${installation}
+
+  ##Usage
+  ${usage}
+
+  ##Credits
+  This application utilizes the following technologies:
+  ${contributions}
+
+  ##Questions
+  Reach out to ${email} with any questions related to this application.
+  GitHub Profile: https://github.com/${github}
+
+  ##License
+  ${license}
 `;
 }
 
