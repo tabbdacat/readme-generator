@@ -12,17 +12,17 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What does your project do?',
+        message: 'What does your project do? Briefly explain the purpose of this project.',
         name: 'description',
     },
     {
         type: 'input',
-        message: 'What are the instructions for installation of your project?',
+        message: 'Please include step-by-step instructions for installation of your project.',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'What is the usage your project?',
+        message: 'Please provide instructions and examples for use of your project.',
         name: 'usage',
     },
     {
@@ -33,7 +33,12 @@ const questions = [
     {
         type: 'input',
         message: 'Who helped contribute to this project? (GitHub usernames)',
-        name: 'contibutors',
+        name: 'contributors',
+    },
+    {
+        type: 'input',
+        message: 'Include any tests you have written for this project',
+        name: 'tests',
     },
     {
         type: 'list',

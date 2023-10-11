@@ -58,7 +58,7 @@ ${renderLicenseBadge(data.license)}
   This application utilizes the following technologies:
   ${data.technologies}
 
-  Contibutors:
+  Contributors:
   ${data.contributors}
 
   ## Tests
@@ -71,7 +71,7 @@ ${renderLicenseBadge(data.license)}
 
   ## License
   This project is licensed under the terms of the ${data.license} licence.
-  ${renderLicenseLink(license)}
+  ${renderLicenseLink(data.license)}
 `;
 }
 
