@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Who helped contribute to this project? (GitHub usernames)',
+        message: 'Who helped contribute to this project? (GitHub usernames, third party creators)',
         name: 'contributors',
     },
     {
@@ -44,7 +44,7 @@ const questions = [
         type: 'list',
         message: 'Which license are you using for this project?',
         name: 'license',
-        choices: ["MIT", "GNU GPLv3", "Apache 2.0", "ISC", "none"]
+        choices: ["MIT", "GNU_GPLv3", "Apache_2.0", "ISC", "none"]
     },
     {
         type: 'input',
