@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "none") {
     return "";
   }
-  return `![GitHub License](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`;
+  return `![GitHub License](https://img.shields.io/badge/license-${license}-yellowlicense green.svg)`;
 }
 
 // function that returns the license link
