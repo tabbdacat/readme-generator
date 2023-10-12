@@ -1,9 +1,9 @@
 # README Generator
 
-![GitHub License](https://img.shields.io/badge/license-MIT-yellowlicense green.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
   ## Description
-  This application uses prompts that require input from the use in the terminal to fill out sections of a README file. Once all inputs are entered, a new README file will generate that is ready to be uploaded to GitHub.
+  This application uses prompts that require input from the user in the terminal to fill out sections of a README file. Once all inputs are entered, a new README file will generate that has input placed in correct sections that is ready to be uploaded to GitHub.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,14 +15,14 @@
   - [License](#license)
 
   ## Installation
-  Install node.js, then install inquirer package 8.2.4, as listed in "dependencies" of package.json file.
+  Install node.js, then install Inquirer package 8.2.4, as listed in "dependencies" of package.json file.
 
   ## Usage
-  Open the terminal in your file system. Use the command "node index.js" to invoke the application. Fill out the prompts as insrtcuted and your README file will appear in your file system.
+  Open the terminal in your file system. Use the command "node index.js" to invoke the application. Fill out the prompts as instructed and your README file will appear once it is completed.
 
   ## Credits
   This application utilizes the following technologies:
-  Node.js and Inquirer
+  Node.js, Inquirer
 
   ## Contributing
   N/A
@@ -32,7 +32,7 @@
 
   ## Questions
   Please reach out with any additional questions related to this application.
-  Email: tabbathapishke@gmail.com 
+  Email: tabbathapischke@gmail.com 
   GitHub Profile: https://github.com/tabbdacat
 
   ## License
