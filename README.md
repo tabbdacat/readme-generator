@@ -20,6 +20,8 @@
   ## Usage
   Open the terminal in your file system. Use the command "node index.js" to invoke the application. Fill out the prompts as instructed and your README file will appear once it is completed.
 
+  [Link to Walkthrough Video](https://drive.google.com/file/d/1expYmuyIFvUT7yBWc7rXQU8E5m-Hs-DF/view)
+
   ## Credits
   This application utilizes the following technologies:
   Node.js, Inquirer
